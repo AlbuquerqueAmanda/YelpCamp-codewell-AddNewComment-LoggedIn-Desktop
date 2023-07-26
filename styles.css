@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+header {
+    margin-left: 100px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.home {
+    margin-left: 30px;
+    color: #4F4F4F;
+    font-weight: bold;
+}
+.username {
+    margin-left: 790px;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+.logout {
+    margin-left: 30px;
+    color: #4F4F4F;
+}
+.textarea {
+    display: flex;
+    justify-content: center;
+}
+textarea {
+    height: 230px;
+    width: 450px;
+    resize: none;
+    font-size: 16px;
+    background-color: #f4f4f3;
+    border: none;
+    border-radius: 3px;
+}
+h1, label, input {
+    margin-left: 458px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+label {
+    display: flex;
+    margin-bottom: -7px;
+    color: #4F4F4F;
+    font-size: 18px;
+}
+input {
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 450px;
+    height:40px;
+    letter-spacing: 0.5px;
+}
+footer {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+::placeholder {
+    padding-left: 15px;
+    padding-top: 15px;
+}
